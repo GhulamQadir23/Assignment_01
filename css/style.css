@@ -267,3 +267,31 @@ Footer{
 .footerSocialMedia_media a{
   color:#fff;
 }
+
+/*==============Blog Section============*/
+
+.BlogSection{
+  border:px solid brown;
+}
+
+.BlogSection_row{
+  border:px solid black;
+  padding:0px 15%;
+}
+
+.BlogSection_row_col{
+  border:px solid red;
+}
+
+.BlogSection_row_col_con{
+  border:px dashed orange;
+  padding:0px ;
+}
+
+.imageRow{
+  border:px dashed yellow;
+}
+
+.textUnderImageRow{
+  border:px dashed black;
+}
