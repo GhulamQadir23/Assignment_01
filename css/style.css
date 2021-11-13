@@ -46,7 +46,7 @@ body{
 
 .imageUnderTitleText img{
   width:100%;
-  height:100vh;
+  height:auto;
 }
 
 /*==========================================Comment===============================*/
@@ -117,13 +117,16 @@ body{
 
 .ghostImage img{
   width:60%;
-  height:80vh;
+  height:auto;
   margin:auto;
 }
 
 .ghostImageDescription{
+  border:px solid black;
   text-align:center;
   font-weight:500;
+  width:60%;
+  margin:auto;
 }
 
 .centerSocialMediaIcons{
@@ -274,6 +277,11 @@ Footer{
   border:px solid brown;
 }
 
+.BlogSection h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+
 .BlogSection_row{
   border:px solid black;
   padding:0px 15%;
@@ -294,4 +302,5 @@ Footer{
 
 .textUnderImageRow{
   border:px dashed black;
+  text-align:center;
 }
