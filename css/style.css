@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+  background-color:#eee;
+}
+
+.container{
+  border:px solid red;
+  padding:0% 15%;
+}
+
+/*===================================Title Text and Description====================*/
+
+
+.allBetweenTitleAndGhostImages{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.titleText h1{
+  font-family:NewYorkExtraLargeBlack;
+  font-weight:bolder;
+  line-height:54px;
+  text-align:center;
+  font-size:54px;
+}
+
+.titleDescription{
+  text-align:center;
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+/*===================================Main Image under title text CSS==============*/
+
+.imageUnderTitleText{
+  border:px solid red;
+}
+
+.imageUnderTitleText img{
+  width:100%;
+  height:100vh;
+}
+
+/*==========================================Comment===============================*/
+
+.commentUser{
+  border-top:2px solid #000;
+}
+
+.commentUserImage{
+  border:px solid black;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.commentUserNameAndDate{
+  border:px solid black;
+}
+
+.commentUserNameAndDate h4{
+  border:px dotted green;
+  margin:8px 0px -16px 0px
+}
+
+.commentUserNameAndDate p{
+  border:px dotted green;
+}
+
+.mediaIcon{
+  border:px solid black;
+  padding:0px;
+  display:flex;
+  align-items:center;
+}
+
+.fab{
+  border:1px solid #EAEAEA;
+  font-size:2em;
+  text-align:center;
+  width:100%;
+  padding:5px;
+  cursor: pointer;
+}
+
+.fa-facebook,.fa-twitter,.fa-whatsapp{
+  transition:0.4s;
+}
+
+.fa-facebook:hover{
+  color:#1877f2;
+  border:1px solid #1877f2;
+}
+
+.fa-twitter:hover{
+  color:#1da1f2;
+  border:1px solid #1da1f2;
+}
+
+.fa-whatsapp:hover{
+  color:#25d366;
+  border:1px solid #25d366;
+}
+
+.ghostImage{
+  display:flex;
+  justify-content:center;
+}
+
+.ghostImage img{
+  width:60%;
+  height:80vh;
+  margin:auto;
+}
+
+.ghostImageDescription{
+  text-align:center;
+  font-weight:500;
+}
+
+.centerSocialMediaIcons{
+  border:px solid red;
+  margin:30px 0px;
+}
+
+.paragraphsUnderGhostImage > h5{
+  margin:30px 0px;
+}
+
+.commentUser2ndDetail{
+  border-top:1px dotted black;
+  margin:30px 0px;
+  padding-top:30px;
+}
+
+.userImage{
+  border:px solid red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.eyes{
+  border:px solid red;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  top:-50px;
+}
+
+.eyes img{
+  border:px solid red;
+}
+
+.lineUnderEyes{
+  border:1px solid black;
+  color:#000;
+}
+
+
+
+
+
+
+.signUprow{
+  display:flex;
+  justify-content:center;
+  padding-bottom:80px;
+  margin-top:50px;
+}
+
+.signUpbox{
+  border-top:7px solid black;
+  border-left:1px solid #3e3e3e;
+  border-right:1px solid #3e3e3e;
+  border-bottom:1px solid #3e3e3e;
+}
+
+.signUpbox h4{
+  margin-top:25px;
+}
+
+.emailSignUpContainer{
+  border:px solid red;
+  margin-bottom:40px;
+}
+
+.emailSignUprow{
+  border:px dotted green;
+}
+
+.email,.signup{
+  padding:0px;
+}
+
+.email input{
+  border:px solid blue;
+  width:100%;
+  height:100%;
+  padding-left:8px;
+}
+
+.signup{
+  border:px solid blue;
+}
+
+.signup button{
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color:#fff;
+  padding:5px 0px;
+}
+
+/*==========================FOOTER=============================*/
+
+Footer{
+  color:#fff;
+  background-color:#000;
+  padding:10px 0px;
+}
+
+.footerServices{
+  text-transform:uppercase;
+}
+
+.servicebox{
+  border:px solid red;
+  text-align:center;
+  font-size:15px;
+  padding:0px;
+}
+
+.Footer h2{
+  text-align:center;
+  margin-top:100px;
+}
+
+.Footer p{
+  text-align:center;
+  font-family:serif;
+  font-weight:lighter;
+  font-size:15px;
+  margin-bottom:0px;
+}
+
+.footerSocialMedia{
+  display:flex;
+  justify-content:center;
+  padding:30px 0px 40px 0px;
+}
+
+.footerSocialMedia_media{
+  border:px solid red;
+  text-align:center;
+}
+
+.footerSocialMedia_media a{
+  color:#fff;
+}
